@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Productos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header con navegación -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Título principal -->
+    <h1 class="titulo">Tienda de Productos</h1>
+
+    <!-- Contenedor de productos -->
+    <section class="container">
+        <!-- Lista de productos -->
+        <div class="card">
+            <img src="https://via.placeholder.com/150?text=Laptop" alt="Laptop">
+            <h2>Laptop</h2>
+            <p>Precio: $30</p>
+            <button onclick="abrirModal('Laptop', 30, 'https://via.placeholder.com/150?text=Laptop')">Comprar</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150?text=Smartphone" alt="Smartphone">
+            <h2>Smartphone</h2>
+            <p>Precio: $20</p>
+            <button onclick="abrirModal('Smartphone', 20, 'https://via.placeholder.com/150?text=Smartphone')">Comprar</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150?text=Tablet" alt="Tablet">
+            <h2>Tablet</h2>
+            <p>Precio: $15</p>
+            <button onclick="abrirModal('Tablet', 15, 'https://via.placeholder.com/150?text=Tablet')">Comprar</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150?text=Audifonos" alt="Audífonos">
+            <h2>Audífonos</h2>
+            <p>Precio: $5</p>
+            <button onclick="abrirModal('Audífonos', 5, 'https://via.placeholder.com/150?text=Audifonos')">Comprar</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150?text=Teclado" alt="Teclado">
+            <h2>Teclado</h2>
+            <p>Precio: $8</p>
+            <button onclick="abrirModal('Teclado', 8, 'https://via.placeholder.com/150?text=Teclado')">Comprar</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150?text=Mouse" alt="Mouse">
+            <h2>Mouse</h2>
+            <p>Precio: $6</p>
+            <button onclick="abrirModal('Mouse', 6, 'https://via.placeholder.com/150?text=Mouse')">Comprar</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150?text=Monitor" alt="Monitor">
+            <h2>Monitor</h2>
+            <p>Precio: $70</p>
+            <button onclick="abrirModal('Monitor', 70, 'https://via.placeholder.com/150?text=Monitor')">Comprar</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150?text=Impresora" alt="Impresora">
+            <h2>Impresora</h2>
+            <p>Precio: $40</p>
+            <button onclick="abrirModal('Impresora', 40, 'https://via.placeholder.com/150?text=Impresora')">Comprar</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150?text=Cámara" alt="Cámara">
+            <h2>Cámara</h2>
+            <p>Precio: $90</p>
+            <button onclick="abrirModal('Cámara', 90, 'https://via.placeholder.com/150?text=Cámara')">Comprar</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150?text=Consola" alt="Consola de Videojuegos">
+            <h2>Consola de Videojuegos</h2>
+            <p>Precio: $100</p>
+            <button onclick="abrirModal('Consola de Videojuegos', 100, 'https://via.placeholder.com/150?text=Consola')">Comprar</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150?text=Reloj+Inteligente" alt="Reloj Inteligente">
+            <h2>Reloj Inteligente</h2>
+            <p>Precio: $75</p>
+            <button onclick="abrirModal('Reloj Inteligente', 75, 'https://via.placeholder.com/150?text=Reloj+Inteligente')">Comprar</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150?text=Bocina+Bluetooth" alt="Bocina Bluetooth">
+            <h2>Bocina Bluetooth</h2>
+            <p>Precio: $30</p>
+            <button onclick="abrirModal('Bocina Bluetooth', 30, 'https://via.placeholder.com/150?text=Bocina+Bluetooth')">Comprar</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150?text=Tablet+Grande" alt="Tablet Grande">
+            <h2>Tablet Grande</h2>
+            <p>Precio: $50</p>
+            <button onclick="abrirModal('Tablet Grande', 50, 'https://via.placeholder.com/150?text=Tablet+Grande')">Comprar</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150?text=Control+Remoto" alt="Control Remoto">
+            <h2>Control Remoto</h2>
+            <p>Precio: $25</p>
+            <button onclick="abrirModal('Control Remoto', 25, 'https://via.placeholder.com/150?text=Control+Remoto')">Comprar</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150?text=Cargador" alt="Cargador">
+            <h2>Cargador</h2>
+            <p>Precio: $15</p>
+            <button onclick="abrirModal('Cargador', 15, 'https://via.placeholder.com/150?text=Cargador')">Comprar</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150?text=Router" alt="Router">
+            <h2>Router</h2>
+            <p>Precio: $55</p>
+            <button onclick="abrirModal('Router', 55, 'https://via.placeholder.com/150?text=Router')">Comprar</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150?text=Microondas" alt="Microondas">
+            <h2>Microondas</h2>
+            <p>Precio: $50</p>
+            <button onclick="abrirModal('Microondas', 50, 'https://via.placeholder.com/150?text=Microondas')">Comprar</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150?text=Refrigerador" alt="Refrigerador">
+            <h2>Refrigerador</h2>
+            <p>Precio: $200</p>
+            <button onclick="abrirModal('Refrigerador', 200, 'https://via.placeholder.com/150?text=Refrigerador')">Comprar</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150?text=Licuadora" alt="Licuadora">
+            <h2>Licuadora</h2>
+            <p>Precio: $35</p>
+            <button onclick="abrirModal('Licuadora', 35, 'https://via.placeholder.com/150?text=Licuadora')">Comprar</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150?text=Plancha" alt="Plancha">
+            <h2>Plancha</h2>
+            <p>Precio: $25</p>
+            <button onclick="abrirModal('Plancha', 25, 'https://via.placeholder.com/150?text=Plancha')">Comprar</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150?text=Parlante" alt="Parlante">
+            <h2>Parlante</h2>
+            <p>Precio: $40</p>
+            <button onclick="abrirModal('Parlante', 40, 'https://via.placeholder.com/150?text=Parlante')">Comprar</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150?text=Televisor" alt="Televisor">
+            <h2>Televisor</h2>
+            <p>Precio: $300</p>
+            <button onclick="abrirModal('Televisor', 300, 'https://via.placeholder.com/150?text=Televisor')">Comprar</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150?text=Cafetera" alt="Cafetera">
+            <h2>Cafetera</h2>
+            <p>Precio: $120</p>
+            <button onclick="abrirModal('Cafetera', 120, 'https://via.placeholder.com/150?text=Cafetera')">Comprar</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150?text=Aspiradora" alt="Aspiradora">
+            <h2>Aspiradora</h2>
+            <p>Precio: $60</p>
+            <button onclick="abrirModal('Aspiradora', 60, 'https://via.placeholder.com/150?text=Aspiradora')">Comprar</button>
+        </div>
+    </section>
+
+    <!-- Modal de detalles del producto -->
+    <div id="modalProducto" class="modal">
+        <div class="modal-contenido" id="modalContenido">
+            <span class="cerrar" onclick="cerrarModal()">&times;</span>
+            <img id="modalImagen" src="" alt="Imagen del Producto">
+            <h2 id="modalNombre"></h2>
+            <p id="modalPrecio"></p>
+            <input type="number" id="modalCantidad" placeholder="Cantidad" min="1">
+            <button id="agregarAlCarritoDesdeModal" onclick="agregarAlCarritoDesdeModal()">Agregar al Carrito</button>
+        </div>
+    </div>
+
+    <!-- Modal del carrito -->
+    <div id="modalCarrito" class="modal">
+        <div class="modal-contenido">
+            <span class="cerrar" onclick="cerrarCarrito()">&times;</span>
+            <h2>Carrito de Compras</h2>
+            <ul id="lista-carrito"></ul>
+            <p id="total"></p>
+            <button onclick="vaciarCarrito()">Vaciar Carrito</button>
+            <button onclick="pagar()">Pagar</button>
+        </div>
+    </div>
+
+    <!-- Botón para abrir el carrito -->
+    <button class="ver-carrito" onclick="abrirCarrito()">Ver mi carrito</button>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Tienda de Productos. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Enlace al archivo JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
